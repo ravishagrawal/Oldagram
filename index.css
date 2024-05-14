@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    background: #EDEDED;
+
+}
+
+/* Elements CSS Starts */
+
+.main-container, .header-container {
+    width: 375px;
+    margin: 0px auto 20px auto;
+    background: white;
+    padding-bottom: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    padding: 15px 25px;
+    
+}
+
+.post-header {
+    width: 375px;
+    display: flex;
+    padding: 10px;
+}
+
+.interactions {
+    padding-left: 10px;   
+}
+
+/* Elements CSS Ends */
+
+/* Images CSS Starts */
+
+.img-logo {
+    height: 34px;
+    width: 125px;
+    
+}
+
+.img-profile {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%; 
+    
+}
+
+.img-post {
+    width: 375px;
+    height: 375px;
+}
+
+/* Images CSS Ends */
+
+/* Text CSS Starts */
+
+.bold-text {
+    font-weight: 700;
+    size: 13px;
+}
+
+.light-text {
+    font-weight: 400;
+    size: 13px;
+}
+
+.post-header .bold-text {
+    
+    margin: 0px 0px 8px 10px;
+}
+
+.post-header .light-text {
+    line-height: 0px;
+    margin: 0px 0px 0px 10px;
+
+}
+
+.interactions .post-description .bold-text {
+    display: inline
+    
+}
+
+.interactions .post-description .light-text {
+    display: inline;
+}
+
+
+/* Text CSS Ends */
+
+
+.interactions-icons {
+    width: 22px;
+    height: 22px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
